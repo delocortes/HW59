@@ -1,0 +1,60 @@
+h1 {
+   font-size: 62px; text-align: center; color: white; 
+}
+
+
+p {
+     font-size: 20px; text-align: center; color: white;
+}
+
+nav {
+    text-align: center; 
+}
+
+nav a:hover {
+    animation-name: NavHover;
+    animation-duration: 3s;
+    position: relative;
+    color: rgb(210, 84, 214);
+}
+
+.w3-myfont {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: white;
+  }
+
+
+
+a {
+    padding: 16px;font-size: 44px;text-align: center; color: white;
+}
+
+button {
+    text-align: center;
+}
+
+
+@keyframes NavHover {
+    0% {left:0px;}
+    25% {left:50px;}
+    50% {left:0px}
+    75% {left:-50px}
+    100% {left:0px; padding: 10px;}
+}
+
+.grid{
+  margin-left: auto;
+margin-right: auto;
+width: 69%;
+}
+
+.gridimg td:hover{
+  transition: .5s ease-in-out;
+  transform: scale(1.5);
+}
+
+.gridimg td
+{
+padding: 20px;
+}
+
